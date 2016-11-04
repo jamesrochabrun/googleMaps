@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 @import GoogleMaps;
+#import "MapViewController.h"
 
 NSString *const API_KEY = @"AIzaSyAxPJDGyGHA7lyCMoCAINuCw4mG7BdhYZY";
 
@@ -21,7 +22,19 @@ NSString *const API_KEY = @"AIzaSyAxPJDGyGHA7lyCMoCAINuCw4mG7BdhYZY";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    ///////needed
     [GMSServices provideAPIKey:API_KEY];
+    MapViewController *mapVC = [MapViewController new];
+    self.window.rootViewController = mapVC;
+    /////////////////////
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 

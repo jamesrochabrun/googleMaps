@@ -17,6 +17,8 @@
 		7BAFFDF91DCAF8E800263C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFFDF71DCAF8E800263C2A /* LaunchScreen.storyboard */; };
 		7BAFFE041DCAF8E800263C2A /* GoogleMapsStockCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFFE031DCAF8E800263C2A /* GoogleMapsStockCodeTests.m */; };
 		7BAFFE121DCBD6C100263C2A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFFE111DCBD6C100263C2A /* MapViewController.m */; };
+		7BB192A31DCCE892007E565E /* DirectionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB192A21DCCE892007E565E /* DirectionsVC.m */; };
+		7BB192A61DCD09CC007E565E /* StreetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB192A51DCD09CC007E565E /* StreetViewController.m */; };
 		7BF437C51DCC201C00E3A72B /* CSMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF437C41DCC201C00E3A72B /* CSMarker.m */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,10 @@
 		7BAFFE051DCAF8E800263C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BAFFE101DCBD6C100263C2A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		7BAFFE111DCBD6C100263C2A /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		7BB192A11DCCE892007E565E /* DirectionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirectionsVC.h; path = ../DirectionsVC.h; sourceTree = "<group>"; };
+		7BB192A21DCCE892007E565E /* DirectionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DirectionsVC.m; path = ../DirectionsVC.m; sourceTree = "<group>"; };
+		7BB192A41DCD09CC007E565E /* StreetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StreetViewController.h; path = ../StreetViewController.h; sourceTree = "<group>"; };
+		7BB192A51DCD09CC007E565E /* StreetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StreetViewController.m; path = ../StreetViewController.m; sourceTree = "<group>"; };
 		7BF437C31DCC201C00E3A72B /* CSMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMarker.h; sourceTree = "<group>"; };
 		7BF437C41DCC201C00E3A72B /* CSMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMarker.m; sourceTree = "<group>"; };
 		9E096B3B7A68389944DE17D3 /* Pods-GoogleMapsStockCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsStockCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapsStockCode/Pods-GoogleMapsStockCode.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +115,10 @@
 			children = (
 				7BAFFE101DCBD6C100263C2A /* MapViewController.h */,
 				7BAFFE111DCBD6C100263C2A /* MapViewController.m */,
+				7BB192A11DCCE892007E565E /* DirectionsVC.h */,
+				7BB192A21DCCE892007E565E /* DirectionsVC.m */,
+				7BB192A41DCD09CC007E565E /* StreetViewController.h */,
+				7BB192A51DCD09CC007E565E /* StreetViewController.m */,
 				7BF437C31DCC201C00E3A72B /* CSMarker.h */,
 				7BF437C41DCC201C00E3A72B /* CSMarker.m */,
 				7BAFFDE91DCAF8E800263C2A /* AppDelegate.h */,
@@ -354,7 +364,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB192A31DCCE892007E565E /* DirectionsVC.m in Sources */,
 				7BAFFDEB1DCAF8E800263C2A /* AppDelegate.m in Sources */,
+				7BB192A61DCD09CC007E565E /* StreetViewController.m in Sources */,
 				7BAFFDF41DCAF8E800263C2A /* GoogleMapsStockCode.xcdatamodeld in Sources */,
 				7BAFFDE81DCAF8E800263C2A /* main.m in Sources */,
 				7BF437C51DCC201C00E3A72B /* CSMarker.m in Sources */,
